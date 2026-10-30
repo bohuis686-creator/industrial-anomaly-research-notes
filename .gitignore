@@ -1,0 +1,15 @@
+# Publish only explicitly allowed source and notes.
+/*
+!/.gitignore
+!/README.md
+!/THIRD_PARTY.md
+!/requirements-core.txt
+!/requirements-lock.txt
+!/UTILITY_PILOT_FINDINGS.md
+!/UTILITY_PILOT_PROTOCOL.md
+!/scripts/
+/scripts/*
+!/scripts/*.py
+**/__pycache__/
+*.pyc
+.env*
